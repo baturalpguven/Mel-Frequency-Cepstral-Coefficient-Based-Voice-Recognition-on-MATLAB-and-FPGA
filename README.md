@@ -56,11 +56,11 @@ be eliminated. This function essentially makes the signal at hand converge to ze
 boundaries and ultimately reduces the effects and implications of discontinuities between each part of the
 signal. Although many different windowing techniques could be implemented for the same purpose, in
 our project we were instructed to utilize Hanning windowing
-<div align="center">
-  
-  ![windowed sinosoid](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/43553742-763b-415a-809f-693c2989e0fb)
 
+<div align="center">
+  <img src="https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/43553742-763b-415a-809f-693c2989e0fb" style="width: 50%;" alt="windowed sinosoid">
 </div>
+
 
 <div align="center">
   
