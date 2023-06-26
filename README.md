@@ -57,12 +57,14 @@ boundaries and ultimately reduces the effects and implications of discontinuitie
 signal. Although many different windowing techniques could be implemented for the same purpose, in
 our project we were instructed to utilize Hanning windowing
 <div align="center">
+  
   ![windowed sinosoid](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/43553742-763b-415a-809f-693c2989e0fb)
 
 </div>
 Windowed Sinosuid
 
 <div align="center">
+
   ![hanning](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/ff84a5fe-6212-4044-b626-137144473faf)
 
 </div>
@@ -85,6 +87,7 @@ stored inside 512 8-bit RAM. The resultant output of this lab then becomes 20-bi
 
 ## UART Connection with FPGA and PC
 <div align="center">
+  
   ![debug](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/4b2b9eea-5eec-41cd-bfbd-aec86b9bf39b)
 
 </div>
@@ -108,6 +111,7 @@ MATLAB.
 
 ## ADC and FPGA Connection
 <div align="center">
+  
   ![adc](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/284a1d6c-7b93-4edd-9e91-3a8b2c040b7a)
 
 </div>
@@ -143,6 +147,7 @@ implement the circuit on a breadboard, which was operating fully and accurately.
 signal then goes to the Lab ADC part of this project, to be processed furtherly before its comparison.
 ## MATLAB Simulation
 <div align="center">
+  
   ![matlab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/14fd0014-3aa4-427c-bba0-b7dca3ac8613)
 
 </div>
@@ -161,6 +166,7 @@ $$M(f) = 2595 \log\left(1+ \frac{f}{700}\right)$$
 
 ## MFCC
 <div align="center">
+  
   ![filter_bank](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/6e968103-2bc8-4399-afd6-e8bc2a13a77c)
 
 </div>
@@ -184,6 +190,7 @@ The resulting MCCs capture the spectral characteristics of the speech signal in 
 
 ## FPGA and PC Implementation
 <div align="center">
+  
   ![VHDL_diagram](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/2e7c36fc-5774-4c69-94e3-e8f0ccc715b9)
 
 </div>
