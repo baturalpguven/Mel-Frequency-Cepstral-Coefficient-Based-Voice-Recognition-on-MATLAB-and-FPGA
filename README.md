@@ -1,4 +1,4 @@
-<div align="center">
+
   
 # Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA
 
@@ -24,9 +24,11 @@ the system as can be seen in Figure 1. One could think of this lab as a top modu
 While achieving this operator status, we also implemented framing overlapped by 50% in this lab. This lab
 would ultimately tie all ends together and enable the operation flow of the entire system. This mentioned
 “flow” is attained by a set of signals incoming to and outgoing from this lab.
-
+<div align="center">
 
 ![control_lab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/d80ae4f9-8816-4871-8507-af9dab9926a3)
+
+</div>
 
 ## Windowing of Each Frame on PFGA
 The second lab that we implemented was Lab Window. This part of the lab takes its signals from the Lab
@@ -180,7 +182,6 @@ Overall System
 
 For matlab Simulation of the FPGA use matlab_sim.m and for whoke system use VHDL_files and use serial expolerr in MALTAB 2023 to read data from MATLAB to extract signals and classify using final_system.m
 
-</div>
 
 
 
