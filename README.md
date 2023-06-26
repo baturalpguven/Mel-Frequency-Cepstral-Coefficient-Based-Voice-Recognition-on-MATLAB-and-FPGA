@@ -207,7 +207,7 @@ Overall System
 
 ## Running the Code
 
-To simulate the FPGA in MATLAB, use the matlab_sim.m file. For the entire system, use the VHDL files and the MATLAB Serial Explorer tool to read data from MATLAB, extract signals, and classify them using the final_system.m file.
+To simulate the FPGA in MATLAB, use the `matlab_sim.m` file. For the entire system, use the VHDL files and the MATLAB Serial Explorer tool to read data from MATLAB, extract signals, and classify them using the `final_system.m` file.
 
 
 
