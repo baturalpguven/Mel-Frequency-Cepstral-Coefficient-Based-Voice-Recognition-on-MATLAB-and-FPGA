@@ -52,6 +52,10 @@ be eliminated. This function essentially makes the signal at hand converge to ze
 boundaries and ultimately reduces the effects and implications of discontinuities between each part of the
 signal. Although many different windowing techniques could be implemented for the same purpose, in
 our project we were instructed to utilize Hanning windowing
+
+![windowed sinosoid](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/43553742-763b-415a-809f-693c2989e0fb)
+Windowed Sinosuid
+
 ![hanning](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/ff84a5fe-6212-4044-b626-137144473faf)
 
 Hanning windowing is the process of multiplying a signal by the Hanning window function, which
@@ -112,7 +116,17 @@ preserving signal characteristics and represent via 2’s complement.
 As a result of this lab Collecting analog signals which are spoken numbers and writing into dual port
 RAM was accomplished.
 
-
+## PCB
+The operative duties of lab pcb include the amplification of noise coming from the microphone to
+approximately 3 Volts and the filtering of the incoming sound with a low pass filter, eliminating
+high-frequency signals that would then be unnecessary in the further steps of the assignment. The resulting
+signal is then a signal in the bandwidth of 100 Hz to 4.5 KHz. The filter in this lab has The filter shall
+have 80dB/decade attenuation and its gain from 100 Hz to 3 KHz shall be in the -1 to 1 dB range. The 3
+dB corner frequency of the LPF shall be in the 4 to 4.5 KHz range. Our implementation of this lab did not
+include a PCB as our design experienced several complications in the implementation process, these will
+be further dove into in the discussion and conclusion section. Because of these setbacks, we decided to
+implement the circuit on a breadboard, which was operating fully and accurately. The recorded and filtered
+signal then goes to the Lab ADC part of this project, to be processed furtherly before its comparison.
 ## MATLAB Simulation
 ![matlab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/14fd0014-3aa4-427c-bba0-b7dca3ac8613)
 
@@ -152,7 +166,11 @@ The resulting MCCs capture the spectral characteristics of the speech signal in 
 ## FPGA and PC Implementation
 ![VHDL_diagram](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/2e7c36fc-5774-4c69-94e3-e8f0ccc715b9)
 
-%75 percent accuracy.
+Overall system accomplishes framing of each voice signal frame and windows it and sends it to MATLAB to accomplish the rest of the task.
+%70 percent accuracy.
+
+![overall_system](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/867016b3-82c3-4833-8339-5a9bb21e2008)
+
 
 </div>
 
