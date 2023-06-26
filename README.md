@@ -1,3 +1,5 @@
+<div align="center">
+  
 # Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA
 
 
@@ -12,7 +14,7 @@ capacity to detect changes in lower frequencies[1]. These transformed features w
 the Euclidean distance metric to determine the most likely outcome
 
 
-<div align="center">
+
 
 ## Control of The Overall System on FPGA
 
