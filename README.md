@@ -3,7 +3,7 @@
 # Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA
 
 
-The main objective of this  project is to create a system that can recognize spoken numbers by using mel cepstral coefficients along with the L2 norm of each spoken number as a group. In order to achieve this objective, voice recordings with a duration of 1-2 seconds were divided into 63 frames, where each frame corresponds to approximately 20 milliseconds. To address the issue of leakage during the computation of the Fast Fourier Transform (FFT), a 50% overlap was applied to each frame, along with windowing techniques. Additionally, Mel filter banks were utilized to transform these signals into a domain that is more perceptually relevant to humans, especially in terms of their ability to detect changes in lower frequencies. These transformed features were then compared using the Euclidean distance metric to determine the most likely outcome.
+The main objective of this  project is to create a system that can recognize spoken numbers by using mel cepstral coefficients along with the L2 norm of each spoken number. In order to achieve this objective, voice recordings with a duration of 1-2 seconds were divided into 63 frames, where each frame corresponds to approximately 20 milliseconds. To address the issue of leakage during the computation of the Fast Fourier Transform (FFT), a 50% overlap was applied to each frame, along with windowing techniques. Additionally, Mel filter banks were utilized to transform these signals into a domain that is more perceptually relevant to humans, especially in terms of their ability to detect changes in lower frequencies. These transformed features were then compared using the Euclidean distance metric to determine the most likely outcome. 
 
 
 
@@ -166,5 +166,7 @@ To simulate the FPGA in MATLAB, use the `matlab_sim.m` file. For the entire syst
 
 
 
+## Special Thanks
+Especially thanks to my esteemed group members for helping in the development process of this project.
 
 
