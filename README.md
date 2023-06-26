@@ -38,13 +38,13 @@ seen in the figure. Then hanning coefficients were applied to each frame to prev
 the FFT of each frame was calculated. After this process power spectral density is multiplied with MEL
 filter banks which approximately makes signals more sensitive to changes in the low frequency. MEL
 filter banks have the following equation and figure inside 100Hz and 4KHz
-$$M(f) = 2595log(1+f/700)$$
+$$M(f) = 2595log(1+ \fraq{f}{700})$$
 %80 percent accuracy.
 
 ## MFCC
 ![filter_bank](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/6e968103-2bc8-4399-afd6-e8bc2a13a77c)
 
-## FPGA and PC Implemantation
+## FPGA and PC Implementation
 ![VHDL_diagram](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/2e7c36fc-5774-4c69-94e3-e8f0ccc715b9)
 
 %75 percent accuracy.
