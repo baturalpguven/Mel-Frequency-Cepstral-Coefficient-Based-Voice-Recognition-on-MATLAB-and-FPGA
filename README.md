@@ -12,6 +12,8 @@ capacity to detect changes in lower frequencies[1]. These transformed features w
 the Euclidean distance metric to determine the most likely outcome
 
 
+<div align="center">
+
 ## Control of The Overall System on FPGA
 ![control_lab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/d80ae4f9-8816-4871-8507-af9dab9926a3)
 
@@ -26,6 +28,9 @@ the Euclidean distance metric to determine the most likely outcome
 
 ## MATLAB Simulation
 ![matlab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/14fd0014-3aa4-427c-bba0-b7dca3ac8613)
+
+</div>
+
 Lab MATLAB is a simulation for the whole project that aims to generate the whole system in a MATLAB
 environment and helps us to develop strategies to improve the accuracy of the voice recognition system.
 As in the CONTROL lab, 63 framing with %50 overlaps approximately 20 ms frames generated as can be
