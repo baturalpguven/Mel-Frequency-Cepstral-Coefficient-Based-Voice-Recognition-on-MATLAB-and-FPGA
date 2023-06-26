@@ -175,7 +175,14 @@ Overall system accomplishes framing of each voice signal frame and windows it an
 ![overall_system](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/867016b3-82c3-4833-8339-5a9bb21e2008)
 
 Overall System
+
+## Running the Code
+
+For matlab Simulation of the FPGA use matlab_sim.m and for whoke system use VHDL_files and use serial expolerr in MALTAB 2023 to read data from MATLAB to extract signals and classify using final_system.m
+
 </div>
+
+
 
 
 
