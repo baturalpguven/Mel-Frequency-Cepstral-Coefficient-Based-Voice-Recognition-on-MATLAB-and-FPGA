@@ -25,8 +25,8 @@ While achieving this operator status, we also implemented framing overlapped by 
 would ultimately tie all ends together and enable the operation flow of the entire system. This mentioned
 “flow” is attained by a set of signals incoming to and outgoing from this lab.
 <div align="center">
-
-![control_lab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/d80ae4f9-8816-4871-8507-af9dab9926a3)
+  
+  ![control_lab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/d80ae4f9-8816-4871-8507-af9dab9926a3)
 
 </div>
 
@@ -57,13 +57,16 @@ boundaries and ultimately reduces the effects and implications of discontinuitie
 signal. Although many different windowing techniques could be implemented for the same purpose, in
 our project we were instructed to utilize Hanning windowing
 <div align="center">
-![windowed sinosoid](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/43553742-763b-415a-809f-693c2989e0fb)
+  ![windowed sinosoid](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/43553742-763b-415a-809f-693c2989e0fb)
+
 </div>
 Windowed Sinosuid
 
 <div align="center">
-![hanning](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/ff84a5fe-6212-4044-b626-137144473faf)
+  ![hanning](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/ff84a5fe-6212-4044-b626-137144473faf)
+
 </div>
+
 Hanning windowing is the process of multiplying a signal by the Hanning window function, which
 gradually decreases the signal's amplitude towards zero at the edges as can be seen in Figure 2. The
 Hanning coefficients correspond to the precalculated values of the Hanning window function.
@@ -82,8 +85,10 @@ stored inside 512 8-bit RAM. The resultant output of this lab then becomes 20-bi
 
 ## UART Connection with FPGA and PC
 <div align="center">
-![debug](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/4b2b9eea-5eec-41cd-bfbd-aec86b9bf39b)
+  ![debug](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/4b2b9eea-5eec-41cd-bfbd-aec86b9bf39b)
+
 </div>
+
 Lab Debug, as its name also suggests, was the main verification module of the system. In this lab work,
 we have created and deployed a debugger on the FPGA. This debugger was integrated with a sub-system
 and we have verified its functionality by transferring data from the FPGA to MATLAB. This data transfer
@@ -103,8 +108,10 @@ MATLAB.
 
 ## ADC and FPGA Connection
 <div align="center">
-![adc](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/284a1d6c-7b93-4edd-9e91-3a8b2c040b7a)
+  ![adc](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/284a1d6c-7b93-4edd-9e91-3a8b2c040b7a)
+
 </div>
+
 Lab ADC receives the recorded and filtered signal from Lab PCB. This module operates in correlation and
 parallel with our ADC card. As its name suggests, stands for analog to digital converter, and its primary
 purpose is to properly quantize the incoming signal.
@@ -136,7 +143,8 @@ implement the circuit on a breadboard, which was operating fully and accurately.
 signal then goes to the Lab ADC part of this project, to be processed furtherly before its comparison.
 ## MATLAB Simulation
 <div align="center">
-![matlab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/14fd0014-3aa4-427c-bba0-b7dca3ac8613)
+  ![matlab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/14fd0014-3aa4-427c-bba0-b7dca3ac8613)
+
 </div>
 
 
@@ -153,8 +161,10 @@ $$M(f) = 2595 \log\left(1+ \frac{f}{700}\right)$$
 
 ## MFCC
 <div align="center">
-![filter_bank](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/6e968103-2bc8-4399-afd6-e8bc2a13a77c)
+  ![filter_bank](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/6e968103-2bc8-4399-afd6-e8bc2a13a77c)
+
 </div>
+
 Mel Cepstral Coefficients (MCC) are a set of acoustic features commonly used in speech processing and recognition tasks. They are derived from the Mel Frequency Cepstral Coefficients (MFCC) which capture the spectral characteristics of speech signals.
 
 MCC represents the logarithmic magnitude spectrum of speech signals transformed into the Mel frequency scale. The Mel scale is a perceptual scale that relates the frequency of a signal to how it is perceived by humans. It divides the frequency range into mel bins, which are non-linearly spaced to better align with human auditory perception.
@@ -174,13 +184,18 @@ The resulting MCCs capture the spectral characteristics of the speech signal in 
 
 ## FPGA and PC Implementation
 <div align="center">
-![VHDL_diagram](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/2e7c36fc-5774-4c69-94e3-e8f0ccc715b9)
+  ![VHDL_diagram](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/2e7c36fc-5774-4c69-94e3-e8f0ccc715b9)
+
 </div>
+
 The overall system on FPGA accomplishes framing, windowing, and sending the processed frames to MATLAB for further analysis. The FPGA implementation achieves around 70% accuracy in voice recognition. The system flow is illustrated in the provided diagrams.
 
 <div align="center">
-![overall_system](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/867016b3-82c3-4833-8339-5a9bb21e2008)
+
+  ![overall_system](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/867016b3-82c3-4833-8339-5a9bb21e2008)
+
 </div>
+
 Overall System
 
 ## Running the Code
