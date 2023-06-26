@@ -56,6 +56,7 @@ signal. Although many different windowing techniques could be implemented for th
 our project we were instructed to utilize Hanning windowing
 
 ![windowed sinosoid](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/43553742-763b-415a-809f-693c2989e0fb)
+
 Windowed Sinosuid
 
 ![hanning](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/ff84a5fe-6212-4044-b626-137144473faf)
@@ -173,7 +174,7 @@ Overall system accomplishes framing of each voice signal frame and windows it an
 
 ![overall_system](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/867016b3-82c3-4833-8339-5a9bb21e2008)
 
-
+Overall System
 </div>
 
 
