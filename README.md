@@ -213,6 +213,7 @@ The overall system on FPGA accomplishes framing, windowing, and sending the proc
 Overall System
 
 </div>
+
 ## Running the Code
 
 To simulate the FPGA in MATLAB, use the `matlab_sim.m` file. For the entire system, use the VHDL files and the <a href="https://www.mathworks.com/help/instrument/serialexplorer-app.html"> MATLAB Serial Explorer tool </a>  to read data from MATLAB, extract signals, and classify them using the `final_system.m` file.
