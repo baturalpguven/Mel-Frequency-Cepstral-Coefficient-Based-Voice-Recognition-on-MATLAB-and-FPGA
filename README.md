@@ -29,7 +29,7 @@ the Euclidean distance metric to determine the most likely outcome
 ## MATLAB Simulation
 ![matlab](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/14fd0014-3aa4-427c-bba0-b7dca3ac8613)
 
-</div>
+
 
 Lab MATLAB is a simulation for the whole project that aims to generate the whole system in a MATLAB
 environment and helps us to develop strategies to improve the accuracy of the voice recognition system.
@@ -50,6 +50,7 @@ $$M(f) = 2595 \log\left(1+ \frac{f}{700}\right)$$
 
 %75 percent accuracy.
 
+</div>
 
 
 
