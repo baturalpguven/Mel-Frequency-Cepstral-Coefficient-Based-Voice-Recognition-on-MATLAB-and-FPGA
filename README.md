@@ -131,6 +131,7 @@ $$M(f) = 2595 \log\left(1+ \frac{f}{700}\right)$$
 
 ## MFCC
 ![filter_bank](https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/6e968103-2bc8-4399-afd6-e8bc2a13a77c)
+
 Mel Cepstral Coefficients (MCC) are a set of acoustic features commonly used in speech processing and recognition tasks. They are derived from the Mel Frequency Cepstral Coefficients (MFCC) which capture the spectral characteristics of speech signals.
 
 MCC represents the logarithmic magnitude spectrum of speech signals transformed into the Mel frequency scale. The Mel scale is a perceptual scale that relates the frequency of a signal to how it is perceived by humans. It divides the frequency range into mel bins, which are non-linearly spaced to better align with human auditory perception.
