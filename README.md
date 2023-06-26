@@ -38,7 +38,8 @@ seen in the figure. Then hanning coefficients were applied to each frame to prev
 the FFT of each frame was calculated. After this process power spectral density is multiplied with MEL
 filter banks which approximately makes signals more sensitive to changes in the low frequency. MEL
 filter banks have the following equation and figure inside 100Hz and 4KHz
-$$M(f) = 2595log(1+ \fraq{f}{700})$$
+$$M(f) = 2595 \log\left(1+ \frac{f}{700}\right)$$
+
 %80 percent accuracy.
 
 ## MFCC
