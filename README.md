@@ -13,7 +13,7 @@ The main objective of this  project is to create a system that can recognize spo
 </div>
 
 Mel Cepstral Coefficients (MCC) are a set of acoustic features commonly used in speech processing and recognition tasks. They are derived from the Mel Frequency Cepstral Coefficients (MFCC) which capture the spectral characteristics of speech signals. They have the fallowing equation:
-$$M(f) = 2595 \log\left(1+ \frac{f}{700}\right)$$ .
+$$M(f) = 2595 \log\left(1+ \frac{f}{700}\right)$$.
 
 MCC represents the logarithmic magnitude spectrum of speech signals transformed into the Mel frequency scale. The Mel scale is a perceptual scale that relates the frequency of a signal to how it is perceived by humans. It divides the frequency range into mel bins, which are non-linearly spaced to better align with human auditory perception.
 
