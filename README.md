@@ -58,7 +58,7 @@ Leakage is a phenomenon that arises due to the non-periodicity and finite durati
 
 The process of windowing a signal involves applying an additional function to preprocess the data and enhance the accuracy of transformations on a time-limited, non-periodic signal. By incorporating a windowing function, unwanted disturbances and high-frequency signals present at the transition boundaries of the signal are smoothed out, effectively reducing leakage. This function facilitates the convergence of the signal to zero at these transition boundaries, thereby mitigating the effects and implications of signal discontinuities. While various windowing techniques exist for achieving this objective, our submodule implementation adhered to the instructed use of the Hanning windowing technique.
 
-As a test signal Sinusoidal signal transform into following:
+As a test signal Sinusoidal signal transforms into the following:
 
 <div align="center">
   <img src="https://github.com/baturalpguven/Mel-Frequency-Cepstral-Coefficient-Based-Voice-Recognition-on-MATLAB-and-FPGA/assets/77858949/43553742-763b-415a-809f-693c2989e0fb" style="width: 50%;" alt="windowed sinosoid">
@@ -132,7 +132,7 @@ seen in the figure. Then hanning coefficients were applied to each frame to prev
 the FFT of each frame was calculated. After this process power spectral density is multiplied with MEL
 filter banks which approximately makes signals more sensitive to changes in the low frequency. MEL
 filter banks have the following equation and figure inside 100Hz and 4KHz:
-$$M(f) = 2595 \log\left(1+ \frac{f}{700}\right)$$ .
+$$M(f) = 2595 \log\left(1+ \frac{f}{700}\right).$$ 
 
 After multiplication logarithm and Discrete Cosine Transform (DCT) were applied, and resultant features were compared using Euclidian distance to classify incoming voice. Overall accuracy was around %80.
 
